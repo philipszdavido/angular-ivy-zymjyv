@@ -77,6 +77,8 @@ export class AppComponent implements OnInit {
   }
 }
 */
+
+// take() Example
 export class AppComponent implements OnInit {
   ngOnInit() {
     const observable1 = fromEvent(document, 'click')
