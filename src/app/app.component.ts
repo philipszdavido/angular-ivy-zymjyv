@@ -1,4 +1,4 @@
-import { Component, VERSION, OnInit } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { Observable, of, merge, fromEvent } from 'rxjs';
 import { map } from 'rxjs/operators';
 
@@ -15,7 +15,6 @@ import { take } from 'rxjs/operators';
 // of() Example
 /*
 export class AppComponent implements OnInit {
-  name = 'Angular ' + VERSION.major;
   ngOnInit() {
     const observable1 = of(1, 2, 3).subscribe(data => console.log(data));
   }
